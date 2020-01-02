@@ -16,4 +16,10 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
+const Gql = use('Gql')
+
+Route.post('/', ctx => Gql.handle(ctx))
+// If you want a playground
+Route.get('/graphiql', ctx => Gql.handleUi(ctx))
+
 Route.on('/').render('welcome')
