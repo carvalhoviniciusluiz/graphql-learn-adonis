@@ -17,7 +17,11 @@ adonis serve --dev
 ```
 
 ## Test
+```
+http://localhost:3333/
+```
 
+Graphql playground
 ```
 http://localhost:3333/graphiql
 ```
