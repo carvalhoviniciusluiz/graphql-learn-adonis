@@ -10,13 +10,19 @@ or
 npm install
 ```
 
+## Run Test
+
+```bash
+adonis test
+```
+
 ## Run Server
 
 ```bash
 adonis serve --dev
 ```
 
-## Test
+## Testing
 ```
 http://localhost:3333/
 ```
